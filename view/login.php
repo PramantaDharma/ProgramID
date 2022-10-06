@@ -23,8 +23,7 @@
 </head>
 
 <body class="customBody">
-<div class="cusBody">
-
+<div class="Gradient">
     <div class="container">
 
         <!-- Outer Row -->
@@ -36,39 +35,43 @@
                     <div class="card-body p-0">
                         <!-- Nested Row within Card Body -->
                         <div class="row">
-                            <div class="col-lg-6 d-none d-lg-block bg-login-image"></div>
-                            <!-- <img src="img/image1.jpg" style="width: 200px;" alt="" class="col-lg-6 d-none d-lg-block> -->
+                            <img src="./img/imglogin.jpeg" style="width: 200px;" class="col-lg-6 d-none d-lg-block ">
+                            <!-- <div class="col-lg-6 d-none d-lg-block bg-login-image"></div> -->
                             <div class="col-lg-6">
                                 <div class="p-5">
-                                    <div class="text-center">
-                                        <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
-                                    </div>
+                                    <!-- <div class="text-center"> -->
+                                        <h1 class="h4 text-gray-900 mb-4">SIGN IN</h1>
+                                        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam nam ducimus, eum suscipit sapiente similique vitae.</p>
+                                    <!-- </div> -->
                                     <form class="user">
                                         <div class="form-group">
-                                            <input type="email" class="form-control form-control-user"
-                                                id="exampleInputEmail" aria-describedby="emailHelp"
-                                                placeholder="Enter Email Address...">
+                                            <label for="username" style="padding-top: 13px">&nbsp; username</label>
+                                            <input type="username" class="form-control form-control-user"
+                                                id="exampleInputusername" aria-describedby="username"
+                                                placeholder="">
                                         </div>
                                         <div class="form-group">
+                                            <label for="username" style="padding-top: 13px">&nbsp; email</label>
+                                            <input type="email" class="form-control form-control-user"
+                                                id="exampleInputEmail" aria-describedby="emailHelp"
+                                                placeholder="">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="username" style="padding-top: 13px">&nbsp; password</label>
                                             <input type="password" class="form-control form-control-user"
-                                                id="exampleInputPassword" placeholder="Password">
+                                                id="exampleInputPassword" placeholder="">
                                         </div>
                                         <div class="form-group">
                                             <div class="custom-control custom-checkbox small">
                                                 <input type="checkbox" class="custom-control-input" id="customCheck">
-                                                <label class="custom-control-label" for="customCheck">Ingat Akun Saya</label>
+                                                <label class="custom-control-label" for="customCheck">Remember
+                                                    Me</label>
                                             </div>
                                         </div>
                                         <a href="index.html" class="btn btn-primary btn-user btn-block">
                                             Login
                                         </a>
-                                        <!-- <hr>
-                                        <a href="index.html" class="btn btn-google btn-user btn-block">
-                                            <i class="fab fa-google fa-fw"></i> Login with Google
-                                        </a>
-                                        <a href="index.html" class="btn btn-facebook btn-user btn-block">
-                                            <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook
-                                        </a> -->
+                                        <hr>
                                     </form>
                                     <hr>
                                     <div class="text-center">
@@ -86,9 +89,7 @@
             </div>
 
         </div>
-
-    </div> 
-
+    </div>
 </div>
     <!-- Bootstrap core JavaScript-->
     <script src="../public/asset/vendor/jquery/jquery.min.js"></script>
