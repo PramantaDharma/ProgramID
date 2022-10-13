@@ -15,6 +15,7 @@
     <link href="../../public/asset/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
+    <link href="../../public/asset/css/style.css" rel="stylesheet">
     <!-- Custom styles for this template-->
     <link href="../../public/asset/css/sb-admin-2.css" rel="stylesheet">
 
@@ -33,7 +34,7 @@
                                     <div class="text-center">
                                         <h1 class="h4 text-gray-900 mb-4">Welcome Back</h1>
                                     </div>
-                                    <form class="user">
+                                    <form class="user ">
                                         <div class="form-group">
                                             <label for="email">Email Addrees</label>
                                             <input type="email" class="form-control form-control-user" id="exampleInputEmail" placeholder="">
@@ -42,7 +43,7 @@
                                             <label for="password">Password</label>
                                             <input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="">
                                         </div>
-                                        <a href="login.html" class="btn btn-primary btn-user btn-block">
+                                        <a href="login.html" class="button-login btn btn-primary btn-user btn-block">
                                             Login
                                         </a>
                                     </form>

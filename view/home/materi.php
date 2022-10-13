@@ -17,6 +17,7 @@
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
 
+        <link href="../../public/asset/css/style.css" rel="stylesheet">
     <!-- Custom styles for this template-->
     <link href="../../public/asset/css/sb-admin-2.css" rel="stylesheet">
 
@@ -56,7 +57,7 @@
                     <a class="nav-link disabled">Disabled</a>
                 </li> -->
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
+                <form class="form-inline my-2 my-lg-0" action="../auth/login.php">
                 <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
                 <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Sign In</button>
                 </form>
@@ -123,7 +124,7 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-        <ul class="sidebar-materi navbar-nav bg-gradient-primary sidebar sidebar-dark position-sticky sticky-top "  id="accordionSidebar" style="top: 70px">
+        <ul class="sidebar-materi navbar-nav bg-gradient-primary sidebar sidebar-dark position-sticky sticky-top "  id="accordionSidebar" style="top: 70px; height: 100vh">
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
