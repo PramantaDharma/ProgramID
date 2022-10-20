@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 /* body {
     background-color: white;
 } */
@@ -12,8 +11,6 @@
     --hijau-category : #0D9488;
 }
 
-
->>>>>>> a955b3011eeadf34c143a00140f723110585ed8d
 .sidebar-scroll {
     max-height: calc(100vh);
     overflow-y: auto;
@@ -31,9 +28,6 @@
     height: 100vh !important;
 }
 
-<<<<<<< HEAD
-
-=======
 .button-login {
     background-color: var(--hijau-navbar) !important;
     color: var(--hijau-tua);
@@ -72,4 +66,3 @@
     background-color: var(--hijau-navbar);
     color: #ffffff;
 }
->>>>>>> a955b3011eeadf34c143a00140f723110585ed8d
