@@ -51,6 +51,9 @@
                                     <div class="text-center">
                                         <a class="small" href="forgot-password.php">Forgot Password?</a>
                                     </div>
+                                    <div class="text-center pt-3">
+                                        <p>Not Registered?<a class="" href="register.php"> Register now!</a></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
