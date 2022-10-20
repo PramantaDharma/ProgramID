@@ -380,14 +380,14 @@
                 </div>
 
                 <div class="up d-flex-column mt-2 mb-4 m-4">
-                    <p class="text-dark text-uppercase">Update</p>
-                    <h4 class="text-dark mt-2">Ingin belajar apa hari ini?</h4>
+                    <p class="text-primary text-uppercase">Update</p>
+                    <h4 class="text-dark mt-2"><strong>Ingin belajar apa hari ini?</strong></h4>
 
                  </div>
                     <div class="row justify-content-between m-3">    
-                        <div class="col-lg-4 mb-4">
+                        <div class="d-flex mb-4">
                             <!-- Illustrations -->
-                            <div class="card shadow mb-4">
+                            <div class="card shadow mb-4 mx-3">
                                 <div class="card-header py-3">
                                     <h6 class="m-0 font-weight-bold text-primary">Tutorial HTML dasar</h6>
                                 </div>
@@ -402,7 +402,7 @@
                                 </div>
                             </div>
                             <!-- Illustrations -->
-                            <div class="card shadow mb-4">
+                            <div class="card shadow mb-4 mx-3">
                                 <div class="card-header py-3">
                                     <h6 class="m-0 font-weight-bold text-primary">Tutorial PHP dasar</h6>
                                 </div>
@@ -417,7 +417,7 @@
                                 </div>
                             </div>
                             <!-- Illustrations -->
-                            <div class=" card shadow mb-4">
+                            <div class=" card shadow mb-4 mx-3">
                                 <div class="card-header py-3">
                                     <h6 class="m-0 font-weight-bold text-primary">Tutorial JS dasar</h6>
                                 </div>
@@ -431,7 +431,7 @@
                                     <a target="_blank" rel="nofollow" href="https://undraw.co/">Baca selengkapnya! &rarr;</a>
                                 </div>
                             </div>
-                            
+   
                         </div>
                     </div>     
                 </div>
