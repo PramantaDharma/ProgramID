@@ -11,6 +11,8 @@
     --hijau-category : #0D9488;
 }
 
+
+
 .sidebar-scroll {
     max-height: calc(100vh);
     overflow-y: auto;
@@ -66,3 +68,4 @@
     background-color: var(--hijau-navbar);
     color: #ffffff;
 }
+
