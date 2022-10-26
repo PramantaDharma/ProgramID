@@ -67,7 +67,7 @@
         </div>
     </nav>
 
-    <nav class="navbar-category navbar navbar-expand navbar-light topbar static-top shadow position-sticky sticky-top">
+    <nav class="navbar-category navbar navbar-expand navbar-light topbar static-top shadow">
 
         <!-- Sidebar Toggle (Topbar) -->
         <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
