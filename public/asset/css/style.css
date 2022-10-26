@@ -32,6 +32,8 @@
     --hijau-category : #0D9488;
 }
 
+
+
 .sidebar-scroll {
     max-height: calc(100vh);
     overflow-y: auto;
@@ -88,6 +90,7 @@
     color: #ffffff;
 }
 
+<<<<<<< HEAD
 .content-materi h1, h2, h3, h4, h5, h6 {
     color: black;
 }
@@ -96,3 +99,5 @@ a i.size-large-icon.bi {
     font-size: 32px !important;
     color: var(--white);
 }
+=======
+>>>>>>> 41ba4504fa5f5171499e3e390706c1b9e340ca4e
