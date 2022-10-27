@@ -50,7 +50,8 @@
                     <div class="dropdown-menu">
                     <a class="dropdown-item" href="#">Action</a>
                     <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
+                    <div class="dropdown-divider"></di
+                    v>
                     <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                 </li> -->
@@ -65,6 +66,58 @@
             </div>
         </div>
     </nav>
+    <nav class="navbar-category navbar navbar-expand navbar-light topbar static-top shadow">
+
+        <!-- Sidebar Toggle (Topbar) -->
+        <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+        </button>
+        
+        <div class="navbar-brand nav-cat-mat">
+            <a href="" class="mr-4"><i class="bi bi-house-door-fill"></i></a>
+            <a class="" href="#"></a>
+            <a href=""></a>
+            <a href=""></a>
+        </div>
+
+        
+        <!-- Topbar Navbar -->
+        <ul class="navbar-nav ml-auto">
+
+            <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+            <li class="nav-item dropdown no-arrow d-sm-none">
+                <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-search fa-fw"></i>
+                </a>
+                <!-- Dropdown - Messages -->
+                <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
+                    <form class="form-inline mr-auto w-100 navbar-search">
+                        <div class="input-group">
+                            <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary" type="button">
+                                    <i class="fas fa-search fa-sm"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </li>
+
+            <div class="topbar-divider d-none d-sm-block"></div>
+
+            <!-- Nav Item - User Information -->
+            <li class="nav-item dropdown no-arrow">
+                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-moon"></i>
+                    <!-- <img class="img-profile rounded-circle" src="../../public/asset/img/undraw_profile.svg"> -->
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+    
     <!-- Page Wrapper -->
     <div id="wrapper">
         <!-- Sidebar -->
@@ -81,18 +134,7 @@
                         <i class="fa fa-bars"></i>
                     </button>
                     <!-- Topbar Search -->
-                    <form
-                        class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-                        <div class="input-group">
-                            <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..."
-                                aria-label="Search" aria-describedby="basic-addon2">
-                            <div class="input-group-append">
-                                <button class="btn btn-primary" type="button">
-                                    <i class="fas fa-search fa-sm"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </form>
+                    
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
                         <!-- Nav Item - Search Dropdown (Visible Only XS) -->
@@ -119,13 +161,7 @@
                             </div>
                         </li>
                         <!-- Nav Item - Alerts -->
-                        <li class="nav-item dropdown no-arrow mx-1">
-                            <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fas fa-bell fa-fw"></i>
-                                <!-- Counter - Alerts -->
-                                <span class="badge badge-danger badge-counter">3+</span>
-                            </a>
+            
                             <!-- Dropdown - Alerts -->
                             <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="alertsDropdown">
@@ -169,13 +205,7 @@
                             </div>
                         </li>
                         <!-- Nav Item - Messages -->
-                        <li class="nav-item dropdown no-arrow mx-1">
-                            <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fas fa-envelope fa-fw"></i>
-                                <!-- Counter - Messages -->
-                                <span class="badge badge-danger badge-counter">7</span>
-                            </a>
+                
                             <!-- Dropdown - Messages -->
                             <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="messagesDropdown">
@@ -235,13 +265,7 @@
                         </li>
                         <div class="topbar-divider d-none d-sm-block"></div>
                         <!-- Nav Item - User Information -->
-                        <li class="nav-item dropdown no-arrow">
-                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
-                                <img class="img-profile rounded-circle"
-                                    src="img/undraw_profile.svg">
-                            </a>
+        
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="userDropdown">
@@ -268,22 +292,22 @@
                 </nav>
                 <!-- End of Topbar -->
                 <!-- Begin Page Content -->
-                <div class="container-fluid">
+                <div class="container-fluid ">
                     <!-- Page Heading -->
-                    <div class="d-flex-column mt-2 mb-4 m-4">
-                        <h1 class="text-primary font-weight-bold">Program ID</h1>
+                    <div class="d-flex-column mt-2 mb-4 m-5">
+                        <h1 class="text-success font-weight-bold">Program ID</h1>
                         <h4 class="text-dark mt-2">Bantu pemula belajar koding (coding) dengan tutorial
                             <br> yang mudah dipahami.</h4>
                     </div>
-                    <div class="jn d-flex-column mt-2 m-4">
+                    <div class="jn d-flex-column mt-2 m-5">
                         <a href="#" data-turbo="false" class="px-3 py-2 border rounded-lg" style="background-color: #f5f5f5;">
                             Join Newsletter</a></div>
                     </div>
                     <!-- Content Row -->
-                    <div class="row justify-content-between m-3"> 
+                    <div class="row justify-content-between m-4"> 
                         <!-- Earnings (Monthly) Card Example -->
                         <div class="col-xl-6 col-md-6 mb-4">
-                            <div class="card border-left-primary shadow h-100 py-2">
+                            <div class="card border-left-success shadow h-100 py-2">
                                 <div class="card-body">
                                 <div class="col-auto">
                                             <img src="../../public/asset/img/programming-language 1.png" alt="" width="80">
@@ -300,7 +324,7 @@
                         </div>
                         <!-- Earnings (Monthly) Card Example -->
                         <div class="col-xl-6 col-md-6 mb-4">
-                            <div class="card border-left-primary shadow h-100 py-2">
+                            <div class="card border-left-success shadow h-100 py-2">
                                 <div class="card-body">
                                 <div class="col-auto">
                                             <img src="../../public/asset/img/android.png" alt="" width="80">
@@ -321,15 +345,15 @@
 
                 </div>
 
-                <div class="up d-flex-column mt-2 mb-4 m-4">
-                    <p class="text-primary text-uppercase">Update</p>
+                <div class="up d-flex-column mt-2 mb-4 m-5">
+                    <p class="text-success text-uppercase">Update</p>
                     <h4 class="text-dark mt-2"><strong>Ingin belajar apa hari ini?</strong></h4>
 
                  </div>
-                    <div class="row justify-content-between m-3">    
-                        <div class="d-flex mb-4">
+                    <div class="row justify-content-between m-4">    
+                        <div class="d-flex mb-1">
                             <!-- Illustrations -->
-                            <div class="card shadow mb-4 mx-3">
+                            <div class="card shadow mb-2 mx-3">
                                 <div class="card-header py-3">
                                     <h6 class="m-0 font-weight-bold text-primary">Tutorial HTML dasar</h6>
                                 </div>
@@ -344,7 +368,7 @@
                                 </div>
                             </div>
                             <!-- Illustrations -->
-                            <div class="card shadow mb-4 mx-3">
+                            <div class="card shadow mb-2 mx-3">
                                 <div class="card-header py-3">
                                     <h6 class="m-0 font-weight-bold text-primary">Tutorial PHP dasar</h6>
                                 </div>
@@ -359,7 +383,7 @@
                                 </div>
                             </div>
                             <!-- Illustrations -->
-                            <div class=" card shadow mb-4 mx-3">
+                            <div class=" card shadow mb-2 mx-3">
                                 <div class="card-header py-3">
                                     <h6 class="m-0 font-weight-bold text-primary">Tutorial JS dasar</h6>
                                 </div>
@@ -373,14 +397,70 @@
                                     <a target="_blank" rel="nofollow" href="https://undraw.co/">Baca selengkapnya! &rarr;</a>
                                 </div>
                             </div>
-   
+        
                         </div>
-                    </div>     
+                    </div> 
+                    <div class="row justify-content-between m-3">    
+                        <div class="d-flex mb-2">
+                            <!-- Illustrations -->
+                            <div class="card shadow mb-2 mx-3">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">Tutorial Python dasar</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div class="text-center">
+                                        <img class="img-fluid mt-3 mb-4" style="width: 25rem;"
+                                            src="../../public/asset/img/python-sm.png" alt="...">
+                                    </div>
+                                    <p>Add some quality, svg illustrations to your project courtesy of unDraw, a
+                                        constantly updated collection of beautiful!</p>
+                                    <a target="_blank" rel="nofollow" href="https://undraw.co/">Baca selengkapnya! &rarr;</a>
+                                </div>
+                            </div>
+                            <!-- Illustrations -->
+                            <div class=" card shadow mb-2 mx-3">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">Tutorial Reactjs dasar</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div class="text-center">
+                                        <img class="img-fluid mt-3 mb-4" style="width: 25rem;"
+                                            src="../../public/asset/img/reactjs-sm.png" alt="...">
+                                    </div>
+                                    <p>Add some quality, svg illustrations to your project courtesy of unDraw, a
+                                        constantly updated collection of beautiful!</p>
+                                    <a target="_blank" rel="nofollow" href="https://undraw.co/">Baca selengkapnya! &rarr;</a>
+                                </div>
+                            </div>
+                            <!-- Illustrations -->
+                            <div class=" card shadow mb-2 mx-3">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">Tutorial Kotlin dengan Android Studio</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div class="text-center">
+                                        <img class="img-fluid mt-3 mb-4" style="width: 25rem;"
+                                            src="../../public/asset/img/kotlin-sm.png" alt="...">
+                                    </div>
+                                    <p>Add some quality, svg illustrations to your project courtesy of unDraw, a
+                                        constantly updated collection of beautiful!</p>
+                                    <a target="_blank" rel="nofollow" href="https://undraw.co/">Baca selengkapnya! &rarr;</a>
+                                </div>
+                            </div>    
                 </div>
                 <!-- /.container-fluid -->
             </div>
             <!-- End of Main Content -->
             <!-- Footer -->
+            <footer class="footer-materi sticky-footer">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; Your Website 2021</span>
+                    </div>
+                </div>
+            </footer>
+            <!-- End of Footer -->
+
             
         </div>
         <!-- End of Content Wrapper -->

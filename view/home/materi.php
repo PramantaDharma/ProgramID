@@ -11,15 +11,18 @@
 
     <title>Program ID - Materi</title>
 
+    <!-- Bootstrap icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
     <!-- Custom fonts for this template-->
     <link href="../public/asset/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet">
 
-        <link href="../../public/asset/css/style.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- CSS pribadi -->
+    <link href="../../public/asset/css/style.css" rel="stylesheet">
+
     <!-- Custom styles for this template-->
     <link href="../../public/asset/css/sb-admin-2.css" rel="stylesheet">
 
@@ -115,7 +118,7 @@
             <li class="nav-item dropdown no-arrow">
                 <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="fa fa-moon"></i>
+                    <i class="size-large-icon bi bi-person-circle"></i>
                     <!-- <img class="img-profile rounded-circle" src="../../public/asset/img/undraw_profile.svg"> -->
                 </a>
             </li>
@@ -179,14 +182,14 @@
         <div id="content-wrapper" class="d-flex flex-column">
 
             <!-- Main Content -->
-            <div id="content" class=" bg-light">
+            <div id="content" class=" bg-light ms-auto">
 
                 <!-- Topbar -->
                 
                 <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
-                <div class="container-materi container-fluid col-11 mt-5 bg-white p-4 mb-5 rounded">
+                <div class="container-materi container-fluid col-11 mt-5 bg-white p-4 mb-5 rounded content-materi">
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
@@ -236,6 +239,9 @@
 
                         <h3>Heading Style</h3>
                         <p>Heading Style adalah style CSS yang diberikan pada heading agar terlihat menarik. Berikut ini beberapa style yang sering digunakan pada heading:</p>
+                        <h5>Heading dengan Garis Bawah</h5>
+                        <p>Heading dengan garis bawa bisa kita buat dengan memanfaatkan tag &lt;hr&gt; dan juga CSS. Contoh :</p>
+                        
                     </div>
 
                 </div>
@@ -248,7 +254,7 @@
             <footer class="footer-materi sticky-footer">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2021</span>
+                        <span>Copyright &copy;ProgramID 2022</span>
                     </div>
                 </div>
             </footer>
