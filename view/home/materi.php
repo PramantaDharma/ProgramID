@@ -75,7 +75,7 @@
         </button>
         
         <div class="navbar-brand nav-cat-mat">
-            <a href="" class="mr-4"><i class="bi bi-house-door-fill"></i></a>
+            <a href="../home/category.php" class="mr-4"><i class="bi bi-house-door-fill"></i></a>
             <a class="" href="#">HTML</a>
             <a href="">CSS</a>
             <a href="">JavaScript</a>
