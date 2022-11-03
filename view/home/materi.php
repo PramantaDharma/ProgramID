@@ -29,9 +29,9 @@
 </head>
 
 <body id="page-top">
-    <nav class="materi-navbar navbar navbar-expand-lg navbar-dark bg-">
-        <div class="container">
-            <a class="navbar-brand" href="#">ProgramID</a>
+    <nav class="materi-navbar navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand ml-5" href="#">ProgramID</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -43,6 +43,17 @@
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="materi.php">Tutorial</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                    </a>
+                    <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="category.php">Category</a>
@@ -71,7 +82,7 @@
     </nav>
 
     <nav class="navbar-category navbar navbar-expand navbar-light topbar static-top shadow">
-
+    <div class="container-fluid">
         <!-- Sidebar Toggle (Topbar) -->
         <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
             <i class="fa fa-bars"></i>
@@ -124,7 +135,7 @@
             </li>
 
         </ul>
-
+    </div>
     </nav>
 
     <!-- Page Wrapper -->
@@ -308,7 +319,6 @@
     <script src="../../public/asset/js/demo/chart-area-demo.js"></script>
     <script src="../../public/asset/js/demo/chart-pie-demo.js"></script>
     <script src="../../public/asset/js/script.js"></script>
-
 
 </body>
 
