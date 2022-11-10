@@ -14,14 +14,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
     <!-- Custom fonts for this template-->
-    <link href="../public/asset/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="../../../public/asset/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
 
-        <link href="../../public/asset/css/style.css" rel="stylesheet">
+        <link href="../../../public/asset/css/style.css" rel="stylesheet">
     <!-- Custom styles for this template-->
-    <link href="../../public/asset/css/sb-admin-2.css" rel="stylesheet">
+    <link href="../../../public/asset/css/sb-admin-2.css" rel="stylesheet">
 
 </head>
 <body id="page-top">
@@ -35,13 +35,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/app/view/home/index.php">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="materi.php">Tutorial</a>
+                    <a class="nav-link" href="/app/view/home/materi.php">Tutorial</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="category.php">Category</a>
+                    <a class="nav-link" href="/app/view/home/category.php">Category</a>
                 </li>
                 <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
@@ -94,7 +94,7 @@
                     <div class="row justify-content-between m-3"> 
                         <!-- Earnings (Monthly) Card Example -->
                         <div class="col-xl-6 col-md-6 mb-4">
-                            <div class="card border-left shadow h-100 py-2">
+                            <div class="card border-left-primary shadow h-100 py-2">
                                 <div class="card-body">
                                 <div class="col-auto">
                                             <img src="../../public/asset/img/programming-language 1.png" alt="" width="80">
