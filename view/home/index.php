@@ -64,9 +64,8 @@
                 </form>
             </div>
         </div>
-    </nav>
-
-    <div class="container pt-4">
+    </nav> 
+    <div class="">
         <div id="wrapper">
         <!-- Sidebar -->
         
@@ -81,54 +80,46 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
                     <!-- Page Heading -->
-                    <div class="d-flex-column mt-2 mb-4 m-4">
-                        <h1 class="text-primary font-weight-bold">Program ID</h1>
-                        <h4 class="text-dark mt-2">Bantu pemula belajar koding (coding) dengan tutorial
-                            <br> yang mudah dipahami.</h4>
-                    </div>
-                    <div class="jn d-flex-column mt-2 m-4">
-                        <a href="#" data-turbo="false" class="px-3 py-2 border rounded-lg" style="background-color: #f5f5f5;">
-                            Join Newsletter</a></div>
-                    </div>
-                    <!-- Content Row -->
-                    <div class="row justify-content-between m-3"> 
-                        <!-- Earnings (Monthly) Card Example -->
-                        <div class="col-xl-6 col-md-6 mb-4">
-                            <div class="card border-left shadow h-100 py-2">
-                                <div class="card-body">
-                                <div class="col-auto">
-                                            <img src="../../public/asset/img/programming-language 1.png" alt="" width="80">
-                                        </div>
-                                    <div class="row no-gutters align-items-center">
-                                        <div class="col mr-2">
-                                            <div class="font-weight-bold text-primary mb-1">
-                                                Web Programming</div>
-                                            <p class="mb-0 font-weight-bold">Baca tutorial dasar web programming, mulai dari HTML, CSS, JS, PHP, MySQL, Codeigniter, React, dan masih banyak lagi</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="container-fluid d-flex flex-column" style="background-color: #142938;">
+                        <div class="d-flex-column mt-2 mb-1 m-5">
+                            <h1 class="text-white font-weight-bold">Program ID</h1>
+                            <h4 class="text-white mt-2">Bantu pemula belajar koding (coding) dengan tutorial
+                            <br> yang mudah dipahami.</h4> 
+                            <div class="d-flex">
+                            <a href="../home/category.php" data-turbo="false" class="px-3 py-2 border rounded-lg text-white">Join
+                            Newsletter</a></div>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        </div>      
                         </div>
-                        <!-- Earnings (Monthly) Card Example -->
-                        <div class="col-xl-6 col-md-6 mb-4">
-                            <div class="card border-left-primary shadow h-100 py-2">
-                                <div class="card-body">
-                                <div class="col-auto">
-                                            <img src="../../public/asset/img/android.png" alt="" width="80">
-                                        </div>
-                                    <div class="row no-gutters align-items-center">
-                                        <div class="col mr-2">
-                                            <div class="font-weight-bold text-primary mb-1">
-                                                Android Programming</div>
-                                            <p class="mb-0 font-weight-bold">Baca tutorial android programming mulai dari JAVA, XML, Android SDK, Android Studio, API, SQLite</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>   
                     </div>
 
+                   
+
+                    </div>
+                    
+
                 <div>
+            <footer class="footer-materi sticky-footer">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; Your Website 2021</span>
+                    </div>
+                </div>
+            </footer>
 
                 </div>
 

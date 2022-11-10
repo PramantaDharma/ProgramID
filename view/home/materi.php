@@ -26,9 +26,9 @@
 </head>
 
 <body id="page-top">
-    <nav class="materi-navbar navbar navbar-expand-lg navbar-dark bg-">
-        <div class="container">
-            <a class="navbar-brand" href="#">ProgramID</a>
+    <nav class="materi-navbar navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand ml-5" href="#">ProgramID</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -41,6 +41,17 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="materi.php">Tutorial</a>
                 </li>
+                <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                    </a>
+                    <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link" href="category.php">Category</a>
                 </li>
@@ -68,14 +79,14 @@
     </nav>
 
     <nav class="navbar-category navbar navbar-expand navbar-light topbar static-top shadow">
-
+    <div class="container-fluid">
         <!-- Sidebar Toggle (Topbar) -->
         <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
             <i class="fa fa-bars"></i>
         </button>
         
         <div class="navbar-brand nav-cat-mat">
-            <a href="" class="mr-4"><i class="bi bi-house-door-fill"></i></a>
+            <a href="../home/category.php" class="mr-4"><i class="bi bi-house-door-fill"></i></a>
             <a class="" href="#">HTML</a>
             <a href="">CSS</a>
             <a href="">JavaScript</a>
@@ -115,13 +126,13 @@
             <li class="nav-item dropdown no-arrow">
                 <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="fa fa-moon"></i>
+                    <i class="size-large-icon bi bi-person-circle"></i>
                     <!-- <img class="img-profile rounded-circle" src="../../public/asset/img/undraw_profile.svg"> -->
                 </a>
             </li>
 
         </ul>
-
+    </div>
     </nav>
 
     <!-- Page Wrapper -->
@@ -179,14 +190,14 @@
         <div id="content-wrapper" class="d-flex flex-column">
 
             <!-- Main Content -->
-            <div id="content" class=" bg-light">
+            <div id="content" class=" bg-light ms-auto">
 
                 <!-- Topbar -->
                 
                 <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
-                <div class="container-materi container-fluid col-11 mt-5 bg-white p-4 mb-5 rounded">
+                <div class="container-materi container-fluid col-11 mt-5 bg-white p-4 mb-5 rounded content-materi">
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
@@ -236,6 +247,9 @@
 
                         <h3>Heading Style</h3>
                         <p>Heading Style adalah style CSS yang diberikan pada heading agar terlihat menarik. Berikut ini beberapa style yang sering digunakan pada heading:</p>
+                        <h5>Heading dengan Garis Bawah</h5>
+                        <p>Heading dengan garis bawa bisa kita buat dengan memanfaatkan tag &lt;hr&gt; dan juga CSS. Contoh :</p>
+                        
                     </div>
 
                 </div>
@@ -248,7 +262,7 @@
             <footer class="footer-materi sticky-footer">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2021</span>
+                        <span>Copyright &copy;ProgramID 2022</span>
                     </div>
                 </div>
             </footer>
@@ -284,7 +298,6 @@
             </div>
         </div>
     </div>
-
     <!-- Bootstrap core JavaScript-->
     <script src="../../public/asset/vendor/jquery/jquery.min.js"></script>
     <script src="../../public/asset/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

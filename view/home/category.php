@@ -82,19 +82,16 @@
                 <!-- End of Topbar -->
                 <!-- Begin Page Content -->
         
-                <div class="container-fluid d-flex flex-column" style="background-color: #0D9488;">
+                <div class="container-fluid d-flex flex-column" style="background-color: #142938;">
                     <!-- Page Heading -->
                     <div class="d-flex-column mt-2 mb-1 m-5">
-                        <h1 class="text-white font-weight-bold">Program ID</h1>
-                        <h4 class="text-white mt-2">Bantu pemula belajar koding (coding) dengan tutorial
-                        <br> yang mudah dipahami.</h4> 
-                        <div class="d-flex">
-                        <a href="#updatenewsletter" data-turbo="false" class="px-3 py-2 border rounded-lg text-white">Join
-                        Newsletter</a></div>
-                    </div>      
+                        <p class="text-success text-uppercase">Update</p>
+                        <h1 class="text-white font-weight-bold">Mau belajar apa hari ini?</h1>
+                        <h4 class="text-white mt-2">Belajar berdasarkan minat anda dengan web developer
+                        <br> asli Indonesia.</h4>      
                     </div>
                 </div>
-                <div class="container-fluid d-flex flex-column" style="background-color: #0D9488;">
+                <div class="container-fluid d-flex flex-column" style="background-color: #142938;">
                  <!-- Content Row -->
                  <div class="row justify-content-between m-4"> 
                         <!-- Earnings (Monthly) Card Example -->
@@ -137,7 +134,7 @@
             
                 <div class="up d-flex-column mt-2 m-5" id="updatenewsletter">
                     <p class="text-success text-uppercase">Update</p>
-                    <h4 class="text-dark mt-2"><strong>Ingin belajar apa hari ini?</strong></h4>
+                    <h4 class="text-dark mt-2"><strong>Apa saja yang baru disini?</strong></h4>
 
                  </div>
                     <div class="row justify-content-between mt-0 m-4">    
