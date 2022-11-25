@@ -1,6 +1,6 @@
 
 <body id="page-top">
-    <nav class="materi-navbar navbar navbar-expand-lg navbar-dark">
+<nav class="materi-navbar navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
             <a class="navbar-brand ml-5" href="#">ProgramID</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,12 +10,12 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="<?= BASE_URL ?>/home/index">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="materi.php">Tutorial</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?= BASE_URL ?>/home/materi">Tutorial</a>
                 </li>
-                <li class="nav-item dropdown">
+                <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                     Dropdown
                     </a>
@@ -25,9 +25,9 @@
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#">Something else here</a>
                     </div>
-                </li>
+                </li> -->
                 <li class="nav-item">
-                    <a class="nav-link" href="category.php">Category</a>
+                    <a class="nav-link" href="<?= BASE_URL ?>/home/category">Category</a>
                 </li>
                 <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
@@ -182,6 +182,7 @@
 
                     <!-- Content Row -->
                     <div class="">
+                        <img src="https://www.malasngoding.com/wp-content/uploads/2015/12/Mengenal-Heading-Pada-HTML.png" alt="" class="mb-4 d-block mx-auto">
                         <p>Bayangkan jika artikel yang sedang kamu baca ini tidak memiliki judul. Pasti tidak akan menarik! Tidak ada judul dan juga sub judul. Kamu bisa saja akan bingung membacanya.</p>
                         <p>Karena itu..</p>
                         <p>Kita membutuhkan judul, atau dalam HTML dikenal dengan Heading.
