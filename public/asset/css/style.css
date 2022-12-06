@@ -1,7 +1,7 @@
 
-/* body {
-    background-color: white;
-} */
+body {
+    overflow-x: hidden;
+}
 
 
 
@@ -30,6 +30,15 @@
     --hijau-tua : #134E4A;
     --hijau-navbar : #0F766E;
     --hijau-category : #0D9488;
+}
+
+/* a {
+    text-decoration: none !important;
+    color: var(--white) !important;
+} */
+.navbar-brand > a:hover {
+    text-decoration: none !important;
+    color: var(--light) !important;
 }
 
 .sidebar-scroll {
