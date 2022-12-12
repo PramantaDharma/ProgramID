@@ -3,12 +3,16 @@
 class Auth extends Controller {
     public function index()
     {
-        $this->view('template/header');
+        $data['title'] = 'Login';
+        $this->view('template/header', $data);
+        $this->view('template/navbar');
         $this->view('auth/login');
         $this->view('template/footer');
     }
     public function register() {
-        $this->view('template/header');
+        $data['title'] = 'Register';
+        $this->view('template/header', $data);
+        $this->view('template/navbar');
         $this->view('auth/register');
         $this->view('template/footer');
     }

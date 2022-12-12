@@ -1,6 +1,6 @@
 <nav class="materi-navbar navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
-            <a class="navbar-brand ml-5" href="#">ProgramID</a>
+            <a class="navbar-brand ml-5" href="<?= BASE_URL ?>/home">ProgramID</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -42,9 +42,9 @@
                     <a class="nav-link disabled">Disabled</a>
                 </li> -->
                 </ul>
-                <form class="form-inline my-2 my-lg-0" action="../auth/login.php">
+                <form class="form-inline my-2 my-lg-0" action="<?= BASE_URL ?>/auth/login">
                 <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
-                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Sign In</button>
+                <button class="btn btn-outline-light my-2 my-sm-0 btn-sign-in" type="submit">Sign In</button>
                 </form>
             </div>
         </div>

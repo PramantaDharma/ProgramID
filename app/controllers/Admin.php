@@ -2,7 +2,8 @@
 
 class Admin extends Controller {
     public function index() {
-        $this->view('template/header');
+        $data['title'] = 'Admin Home';
+        $this->view('template/header', $data);
         $this->view('admin/index');
         $this->view('template/footer');
     }

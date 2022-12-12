@@ -36,6 +36,11 @@ body {
     text-decoration: none !important;
     color: var(--white) !important;
 } */
+
+a {
+    text-decoration: none;
+}
+
 .navbar-brand > a:hover {
     text-decoration: none !important;
     color: var(--light) !important;
@@ -104,4 +109,9 @@ body {
 a i.size-large-icon.bi {
     font-size: 32px !important;
     color: var(--white);
+}
+
+.btn-sign-in:hover {
+    color: var(--white) !important;
+    background-color: var(--hijau-tua) !important;
 }

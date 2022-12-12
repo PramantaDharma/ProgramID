@@ -7,7 +7,7 @@
         </button>
         
         <div class="navbar-brand nav-cat-mat">
-            <a href="../home/category.php" class="mr-4"><i class="bi bi-house-door-fill"></i></a>
+            <a href="<?= BASE_URL ?>/home" class="mr-4"><i class="bi bi-house-door-fill"></i></a>
             <a class="" href="#">HTML</a>
             <a href="">CSS</a>
             <a href="">JavaScript</a>
@@ -76,22 +76,22 @@
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
                 <a class="nav-link" href="index.html">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <!-- <i class="fas fa-fw fa-tachometer-alt"></i> -->
                     <span>HTML Heading</span></a>
             </li>
             <li class="nav-item ">
                 <a class="nav-link" href="index.html">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <!-- <i class="fas fa-fw fa-tachometer-alt"></i> -->
                     <span>HTML Attribute</span></a>
             </li>
             <li class="nav-item ">
                 <a class="nav-link" href="index.html">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <!-- <i class="fas fa-fw fa-tachometer-alt"></i> -->
                     <span>HTML Image</span></a>
             </li>
             <li class="nav-item ">
                 <a class="nav-link" href="index.html">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <!-- <i class="fas fa-fw fa-tachometer-alt"></i> -->
                     <span>HTML Table</span></a>
             </li>
 
@@ -123,8 +123,9 @@
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-gray-800">HTML Heading</h1>
-                        <a href="#" class="button-next d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
-                                class="fas fa-download fa-sm text-white-50"></i> Next > </a>
+                        <a href="#" class="button-next d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">Next > </a>
+                        <!-- <a href="#" class="button-next d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                                class="fas fa-download fa-sm text-white-50"></i> Next > </a> -->
                     </div>
 
                     <!-- Content Row -->

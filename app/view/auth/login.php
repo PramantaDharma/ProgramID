@@ -1,5 +1,5 @@
 
-<body class="bg-gradient-warning">
+<body class="bg-gradient-white">
     <div class="body-color d-flex align-items-center" style="width: 100%; height: 100vh;">
         <div class="container">
             <div class="card o-hidden border-0 shadow-lg">
@@ -26,8 +26,11 @@
                                         </a>
                                     </form>
                                     <hr>
-                                    <div class="text-center">
-                                        <a class="small" href="forgot-password.php">Forgot Password?</a>
+                                    <div class="text-center small">
+                                        <a class="" href="forgot-password.php">Forgot Password?</a>
+                                        <p class="pt-3"> Don't have account? 
+                                            <a href="<?= BASE_URL ?>/auth/register" >Register now!</a>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
