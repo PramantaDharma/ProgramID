@@ -8,7 +8,7 @@
         
         <div class="navbar-brand nav-cat-mat">
             <a href="<?= BASE_URL ?>/home" class="mr-4"><i class="bi bi-house-door-fill"></i></a>
-            <a class="" href="#">HTML</a>
+            <a class="" href="<?= BASE_URL ?>/materi/category/id">HTML</a>
             <a href="">CSS</a>
             <a href="">JavaScript</a>
         </div>
@@ -17,14 +17,14 @@
         <!-- Topbar Navbar -->
         <ul class="navbar-nav ml-auto">
 
-            <!-- Nav Item - Search Dropdown (Visible Only XS)
-            <li class="nav-item dropdown no-arrow d-sm-none">
+            <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+            <!-- <li class="nav-item dropdown no-arrow d-sm-none">
                 <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fas fa-search fa-fw"></i>
-                </a>
-                <!-- Dropdown - Messages
-                <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
+                </a> -->
+                <!-- Dropdown - Messages -->
+                <!-- <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
                     aria-labelledby="searchDropdown">
                     <form class="form-inline mr-auto w-100 navbar-search">
                         <div class="input-group">
@@ -39,9 +39,9 @@
                         </div>
                     </form>
                 </div>
-            </li> -->
+            </li> 
 
-            <div class="topbar-divider d-none d-sm-block"></div>
+            <div class="topbar-divider d-none d-sm-block"></div> -->
 
             <!-- Nav Item - User Information -->
             <li class="nav-item dropdown no-arrow">

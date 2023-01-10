@@ -11,7 +11,7 @@
                     <a class="nav-link" href="<?= BASE_URL ?>/home/index">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?= BASE_URL ?>/home/materi">Tutorial</a>
+                    <a class="nav-link" href="<?= BASE_URL ?>/materi">Tutorial</a>
                 </li>
                 <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
